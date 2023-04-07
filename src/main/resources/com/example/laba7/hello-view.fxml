@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="164.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba7.Controller">
+   <children>
+      <Button fx:id="send" layoutX="35.0" layoutY="75.0" onAction="#onSendButtonClick" prefHeight="26.0" prefWidth="253.0" text="Назначить внутренний код" />
+      <TextField fx:id="name" layoutX="35.0" layoutY="36.0" prefHeight="26.0" prefWidth="102.0" promptText="Название" />
+      <Label fx:id="label" layoutX="35.0" layoutY="112.0" prefHeight="26.0" prefWidth="253.0" text="Код внутреннего учета: " />
+      <TextField fx:id="code" layoutX="149.0" layoutY="36.0" prefHeight="26.0" prefWidth="139.0" promptText="Код подразделения" />
+   </children>
+</AnchorPane>
